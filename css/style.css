@@ -1,0 +1,325 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic",
+    "メイリオ", "Meiryo", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fff;
+  font-size: 14px;
+  color: #856c59;
+}
+
+h1 {
+  font-size: 18px;
+  padding: 16px;
+}
+
+#main {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 70px;
+}
+
+label {
+  margin: 10px;
+}
+
+input#group_name,.width {
+  padding: 6px;
+  width: 300px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+form {
+  margin: 20px 20px 0px;
+  max-width: 800px;
+  display: inline-block;
+  text-align: left;
+}
+
+img.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#preview_area {
+  margin-bottom: 30px;
+}
+
+#submit {
+  margin: auto;
+  background: #856c59;
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  display: block;
+  border: 2px solid #856c59;
+  text-align: center;
+  border-radius: 50px;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); */
+}
+
+#submit:hover {
+  opacity: 0.5;
+}
+
+#bt_return {
+  margin: auto;
+  margin-bottom: 10px;
+  background: #fff;
+  width: 220px;
+  padding: 12px;
+  font-size: 14px;
+  color: #856c59;
+  display: block;
+  border: 2px solid #856c59;
+  text-align: center;
+  border-radius: 50px;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); */
+}
+
+#bt_return:hover {
+  opacity: 0.5;
+}
+
+.nav_box {
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.td {
+  padding: 16px;
+  width: 105px;
+}
+
+/* -----------------
+write.php
+----------------- */
+
+.text {
+  padding: 10px;
+}
+
+.bg_tana {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* -----------------
+read.php
+----------------- */
+
+table.table {
+  /* border:1px solid #5e3819; */
+}
+
+th {
+  background: #856c59;
+  color: #fff;
+  padding: 6px;
+}
+
+.table_border {
+  border: 1px solid #856c59;
+  padding: 4px;
+}
+
+#data {
+  margin: 0 16px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#bg_book{
+  /* width: 500px;
+  height: 500px;
+  margin: 0 auto; */
+  margin-top: 50px;
+  background: url("../img/1512.jpg") no-repeat center center;
+  background-size:cover;
+  /* width: 100%;*/
+  height: 600px;
+
+}
+
+#bg_book_inbox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+}
+
+.book_flex{
+  position: relative;
+  /* margin-top: -36px; */
+  margin: -20px 10px 54px;
+
+}
+
+.book_size{
+  width:50px;
+}
+
+#balloonoya {
+  position   : relative;             /* 指定した分だけ相対的に移動 */
+  cursor   : pointer;                /* カーソルをポインターで表示 */
+}
+.balloon_off {
+  display: none;                     /* 要素を非表示 */
+}
+.balloon {
+  position: absolute;
+  display: inline;
+  padding: 10px;
+  background-color: #fff;
+  width: 300px;
+  border: 2px solid #856c59;
+  z-index: 2;
+  color: #856c59;
+  top: 70px;
+  left: -130px;
+}
+}
+.balloon:after{
+  /* border-bottom: 12px solid#856c59; 
+  border-left: 10px solid transparent; 
+  border-right: 10px solid transparent; 
+  top: -12px;                           
+  left : 20%;                               */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+  z-index: 2;   
+
+}
+
+/* #makeImg {
+  text-align: left;
+  margin: 4px;
+} */
+
+.p {
+  margin: 8px;
+  /* display: block; */
+}
+
+/* -----------------
+serch.php
+----------------- */
+#book_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul#book_list li #book_box {
+  width: 100px;
+  /* これを追加します。 */
+  position: relative;
+  /* これを追加します。 */
+}
+
+#book_img {
+  width: 100px;
+}
+
+/* .heart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -50px;
+}
+
+li#book_box.check_box {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+} */
+
+/* -----------------
+インクルード　ヘッダー
+----------------- */
+
+#header {
+  position: fixed;
+  top: 0px;
+  background-color: #e6d8c8;
+  width: 100%;
+  color: #856c59;
+}
+
+#header_inbox {
+  position: relative;
+  height: 46px;
+  display: flex;
+}
+
+#allow {
+  position: absolute;
+  bottom: 18px;
+  left: 14px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #856c59;
+  border-right: 2px solid #856c59;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+#room {
+  position: absolute;
+  bottom: 12px;
+  left: 50px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+#login {
+  background: #856c59;
+  padding: 8px 10px;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 8px;
+  right: 10px;
+}
+
+/* -----------------
+インクルード　フッター
+----------------- */
+
+#footer {
+  top: 0px;
+  background-color: #e6d8c8;
+  width: 100%;
+  background-color: #b1aba5;
+}
+
+#copywrite {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  margin-top: 20px;
+}
